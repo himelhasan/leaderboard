@@ -1,0 +1,134 @@
+body {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f1ff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/* common styles */
+.container {
+  width: 870px;
+  background: #fff;
+  padding: 33px;
+  border-radius: 5px;
+  margin-top: 35px;
+}
+
+h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #562eff;
+}
+
+main hr {
+  border: 1px solid #d1d1d1;
+  margin: 30px 0px;
+}
+
+/* Header section css */
+
+.header {
+  background-color: #562eff;
+  display: flex;
+  padding: 23px 285px;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo img {
+  height: 51px;
+  width: 40.424137115478516px;
+}
+.logo p {
+  color: #fff;
+  margin-left: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 16px;
+}
+
+nav img {
+  width: 51px;
+  height: 51px;
+  padding: 0px 16px;
+}
+/* Top Players  */
+.top-player {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+
+/* Players   */
+
+.players {
+  display: flex;
+  gap: 15px;
+}
+
+.players img {
+  width: 56px;
+  height: 56px;
+}
+
+.players p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+/* TOP-BLOG */
+
+.top-blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.featured-image img {
+  width: 177px;
+  height: 117px;
+}
+
+.blogs {
+  display: flex;
+  gap: 10px;
+  grid-row-gap: 10px;
+}
+
+article.blogs {
+  margin: 10px 0px;
+}
+
+.blog-info p {
+  color: #562eff;
+}
+
+.blog-info p span {
+  color: #9f9f9f;
+}
