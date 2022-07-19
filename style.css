@@ -5,6 +5,7 @@ body {
   background-color: #f3f1ff;
 }
 
+/* flex direction column */
 main {
   display: flex;
   flex-direction: column;
