@@ -225,3 +225,105 @@ article.blogs {
   color: #ed6b4f;
   font-size: 14px;
 }
+
+/* Mobile responsiveness */
+
+@media screen and (max-width: 668px) {
+  /* Common css */
+  main {
+    margin: 15px 20px;
+  }
+  .container {
+    width: 100%;
+    padding: 0px;
+  }
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 1.4em;
+    margin: 0;
+  }
+
+  hr {
+    width: 70%;
+    margin-left: 15% !important;
+    margin-right: 15% !important;
+  }
+
+  /* header css for mobile  */
+
+  .header {
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 0px;
+  }
+  .menu {
+    /* padding-left: 50px; */
+    padding-right: 2vw;
+  }
+
+  .logo {
+    padding-left: 2vw;
+    /* padding-right: 50px; */
+  }
+  nav a {
+    padding: 0px 5px;
+  }
+
+  /* top player  */
+  .top-player {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .top-player {
+    grid-row-gap: 0px;
+  }
+
+  .players {
+    display: flex;
+    /* gap: 15px; */
+    flex-direction: column;
+    padding: 15px;
+    margin: 0px;
+    align-items: center;
+  }
+
+  /* .top-blog */
+  .top-blog {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 25px;
+  }
+  .featured-image {
+    width: 50%;
+  }
+  .featured-image img {
+    width: 35vw;
+    height: auto;
+  }
+  .blog-info p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  /* .Latest-Courses */
+  .Latest-Courses {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 25px 50px 25px;
+  }
+  .single-course-card {
+    margin: 0px 0px 30px 0px;
+  }
+
+  .course-featured-image img {
+    width: 100%;
+    height: auto;
+  }
+  .course-info,
+  .course-excerpt {
+    padding: 10px 5px 0px 5px;
+  }
+  .course-info h3 {
+    font-size: 16px;
+    line-height: 1.4em;
+  }
+}
